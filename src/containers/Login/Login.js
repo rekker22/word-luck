@@ -11,7 +11,7 @@ class Login extends React.Component {
                     <input className='input' type='password' name='password' placeholder='Enter your password'/>
                     <button className='btn'>Login</button>
                 </div>
-                <div className='register'>
+                <div className='login-register'>
                     <button className='btn'>New Registration</button>
                     <button className='btn'>Forgot Password</button>
                 </div>

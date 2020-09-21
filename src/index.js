@@ -1,18 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Login from './containers/auth/Login';
-import Register from './containers/auth/Register';
+import Login from './containers/Login/Login';
+import Register from './containers/Register/Register';
 import * as serviceWorker from './serviceWorker';
-import {
-  BrowserRouter as Router,
-  Route
-} from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 ReactDOM.render(
   <div>
     <Router>
-      
       <Route exact path="/login"><Login /></Route>
       <Route exact path="/register"><Register /></Route>
     </Router>
