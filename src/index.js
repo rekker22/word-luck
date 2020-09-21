@@ -4,12 +4,11 @@ import './index.css';
 import Login from './containers/Login/Login';
 import Register from './containers/Register/Register';
 import * as serviceWorker from './serviceWorker';
-import { Redirect, BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 ReactDOM.render(
   <div>
     <Router>
-      <Redirect from="/" exact to="/login" />
       <Route exact path="/login"><Login /></Route>
       <Route exact path="/register"><Register /></Route>
     </Router>
