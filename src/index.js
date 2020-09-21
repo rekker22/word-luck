@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Login from './containers/Login/Login';
 import Register from './containers/Register/Register';
+import Navbar from './containers/Navbar/Navbar';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 ReactDOM.render(
   <div>
+    <Navbar />
     <Router>
       <Route exact path="/login"><Login /></Route>
       <Route exact path="/register"><Register /></Route>

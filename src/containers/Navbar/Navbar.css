@@ -1,0 +1,40 @@
+.navbar{
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand{
+    margin: 1em;
+    flex-shrink: 0;
+}
+
+/*Navbarmenu file css*/
+
+.navbar-menu{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.navbar-menu a{
+    text-decoration: none;
+    padding: 1em;
+}
+
+.navbar-menu a:hover{
+    background-color: white;
+    color:black;
+
+}
+
+.nav-btn{
+    border:none;
+    margin: 1em;
+    height: 25px;
+    width: 25px;
+}
