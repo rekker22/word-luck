@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Login from './containers/Login/Login';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <h1>Hello World</h1>,
+  <Login />,
   document.getElementById('root')
 );
 
