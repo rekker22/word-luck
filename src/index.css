@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
 
+* {
+  font-family: 'Recursive', sans-serif;
+}
 body {
   margin: 0;
-  font-family: 'Recursive', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(111,163,224);
-  background: radial-gradient(circle, rgba(111,163,224,1) 0%, rgba(97,120,219,1) 100%);
+  background: #857f77;
+  /* background: radial-gradient(circle, rgba(200,194,170,1) 0%, rgba(199,181,143,1) 100%); */
+  color: #383631;
 }
 
 code {

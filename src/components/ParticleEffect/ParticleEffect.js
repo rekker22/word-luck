@@ -5,7 +5,7 @@ import './ParticleEffect.css';
 const particleEffectOptions = {
     "particles": {
         "number": {
-          "value": 150,
+          "value": 120,
           "density": {
               "enable": false
           }
