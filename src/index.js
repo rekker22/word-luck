@@ -4,17 +4,19 @@ import './index.css';
 import Login from './containers/Login/Login';
 import Register from './containers/Register/Register';
 import Navbar from './containers/Navbar/Navbar';
+import Referral from './containers/Referral/Referral';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ParticleEffect from './components/ParticleEffect/ParticleEffect';
 
 ReactDOM.render(
   <div>
-    {/* <Navbar /> */}
+    {/*<Navbar />*/}
     <ParticleEffect />
     <Router>
       <Route exact path="/login"><Login /></Route>
       <Route exact path="/register"><Register /></Route>
+      <Route exact path="/referral"><Referral /></Route>
     </Router>
   </div>,
   document.getElementById('root')

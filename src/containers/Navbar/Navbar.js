@@ -8,7 +8,7 @@ class Navbar extends React.Component{
     constructor(props) {
         super(props);
         this.changestate = this.changestate.bind(this);
-        this.state = {isopen: false};
+        this.state = {isopen: false}
       }
 
     changestate(){
@@ -27,8 +27,8 @@ class Navbar extends React.Component{
         return(
             <div>
             <div className="navbar">
-                <p class="navbar-brand"> Word Luck</p>
-                <img src={logotype} alt="logo" onClick={this.changestate} class="nav-btn">
+                <p className="navbar-brand"> Word Luck</p>
+                <img src={logotype} alt="logo" onClick={this.changestate} className="nav-btn">
                 </img>
             </div>
             {menutype}
