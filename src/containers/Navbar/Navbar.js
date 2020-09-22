@@ -20,7 +20,7 @@ class Navbar extends React.Component{
     render(){
         let menutype;
         let logotype = open;
-        if(this.state.isopen == true){
+        if(this.state.isopen === true){
             menutype = <Navbarmenu />;
             logotype = close;
         }
@@ -28,7 +28,7 @@ class Navbar extends React.Component{
             <div>
             <div className="navbar">
                 <p class="navbar-brand"> Word Luck</p>
-                <img src={logotype} onClick={this.changestate} class="nav-btn">
+                <img src={logotype} alt="logo" onClick={this.changestate} class="nav-btn">
                 </img>
             </div>
             {menutype}

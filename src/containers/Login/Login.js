@@ -9,11 +9,11 @@ class Login extends React.Component {
                 <div className='login-input'>
                     <input className='input' type='text' name='phone' placeholder='Enter your no.'/>
                     <input className='input' type='password' name='password' placeholder='Enter your password'/>
-                    <button className='btn'>Login</button>
+                    <button className='btn-login'>Login</button>
                 </div>
                 <div className='login-register'>
-                    <button className='btn'>New Registration</button>
-                    <button className='btn'>Forgot Password</button>
+                    <button className='btn-login'>New Registration</button>
+                    <button className='btn-login'>Forgot Password</button>
                 </div>
             </div>
         )

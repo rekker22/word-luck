@@ -10,4 +10,5 @@ export function Navbarmenu()
             <a href="/login">LogIn</a>
             <a href="/register">Register</a>
         </div>
-        )}
+        )
+}
