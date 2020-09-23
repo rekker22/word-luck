@@ -5,7 +5,7 @@ import './ParticleEffect.css';
 const particleEffectOptions = {
     "particles": {
         "number": {
-          "value": 120,
+          "value": 80,
           "density": {
               "enable": false
           }
@@ -24,8 +24,14 @@ const particleEffectOptions = {
       "move": {
           "random": true,
           "speed": 1,
-          "direction": "top",
+          "direction": "bottom",
           "out_mode": "out"
+      },
+      "color": {
+        "value": "#24221f"
+      },
+      "shape": {
+          "type": "edge"
       }
   }
 }

@@ -28,7 +28,7 @@
 }
 
 ::placeholder {
-    color: #302e2a;
+    color: var(--color2);
 }
 
 .input {
@@ -38,9 +38,9 @@
     box-sizing: border-box;
     font-size: 1.3em;
     outline: none;
-    background-color: #857f77;
-    border: 2px solid #302e2a;
-    color: #302e2a;
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    color: var(--color2);
     border-radius: 10px;
 }
 
@@ -54,9 +54,9 @@
 }
 
 .btn-login {
-    background-color: #857f77;
-    border: 2px solid #302e2a;
-    color: #302e2a;
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    color: var(--color2);
     padding: 5px 8px;
     font-size: 1.3em;
     border-radius: 12px;
@@ -64,6 +64,6 @@
 }
 
 .btn-login:hover {
-    background-color: #302e2a;
-    color: #857f77;
+    background-color: var(--color2);
+    color: var(--color1);
 }
