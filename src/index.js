@@ -11,7 +11,7 @@ import ParticleEffect from './components/ParticleEffect/ParticleEffect';
 
 ReactDOM.render(
   <div>
-    {/*<Navbar />*/}
+    {<Navbar />}
     <ParticleEffect />
     <Router>
       <Route exact path="/login"><Login /></Route>
