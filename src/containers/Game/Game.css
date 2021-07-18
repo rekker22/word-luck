@@ -1,0 +1,55 @@
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.timer{
+    font-size: 3em;
+    font-weight: bold;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.words{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-word {
+    width: 100%;
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    color: var(--color2);
+    padding: 5px 8px 5px 8px;
+    margin: 5px 8px 5px 8px;
+    font-size: 1.3em;
+    border-radius: 12px;
+    outline: none;
+}
+
+.bet{
+    width: 400px;
+    height: 50px;
+    background-color: #302e2a;
+    border: 2px solid #302e2a;
+    color: #857f77;
+}
+
+.bet:hover{
+    background-color: #857f77;
+    color: #302e2a;
+}
+
+.btn-word:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+}

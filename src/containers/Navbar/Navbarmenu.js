@@ -6,7 +6,7 @@ export function Navbarmenu()
     return(
         <div className="navbar-menu">
             <a href="/">Home</a>
-            <a href="/">Game</a>
+            <a href="/game">Game</a>
             <a href="/referral">Referral</a>
             <a href="/login">LogIn</a>
             <a href="/register">Register</a>

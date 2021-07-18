@@ -8,12 +8,14 @@ import Referral from './containers/Referral/Referral';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ParticleEffect from './components/ParticleEffect/ParticleEffect';
+import Game from './containers/Game/Game';
 
 ReactDOM.render(
   <div>
     {<Navbar />}
     <ParticleEffect />
     <Router>
+    <Route exact path="/game"><Game /></Route>
       <Route exact path="/login"><Login /></Route>
       <Route exact path="/register"><Register /></Route>
       <Route exact path="/referral"><Referral /></Route>
